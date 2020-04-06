@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>webserver_fan-controller: WEBSERVER_FAN-CONTROLLER</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">webserver_fan-controller
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">WEBSERVER_FAN-CONTROLLER </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><img src="doc/webpage.gif" alt="" class="inline"/></p>
+<p><img src="webpage.gif" alt="" class="inline"/></p>
+<h1>Introduzione</h1>
+<p>Lo sketch (compatibile con schede basate su ESP8266) si occupa di hostare un webserver che permette di controllare una ventola a distanza. </p><blockquote class="doxtable">
+<p>Per accedere al web server lo sketch si connette ad una rete WiFi </p>
+</blockquote>
+<h1>Guida all'uso</h1>
+<ol type="1">
+<li>Modificare ssid (variabile <code>ssid</code>) e password (variabile <code>password</code>) nella sezione variabili per farle corrispondere a quelle della rete WiFi a cui la scheda si connettera'</li>
+<li>Modificare il pin su cui effettuare l'attuazione (variabile <code>outPin</code>)</li>
+<li>Se desiderato e' possibile modificare lo stile CSS (variabili <code>htmlCSS</code>, <code>btnCSS</code>,<code>offBtnCSS</code>,<code>onBtnCSS</code>) e/o le immagini/gif (variabili <code>onImg</code>, <code>offImg</code>) <blockquote class="doxtable">
+<p>Attenzione: se si desidera modificare le immagini occorre trovare immagini di dimensioni ridotte e ottimizzarle per occupare meno risorse possibili alla scheda. In caso contrario lo sketch potrebbe non compilarsi. </p>
+</blockquote>
+</li>
+<li>Attenersi alle istruzioni del costruttore della scheda per scegliere le impostazioni per poter caricare lo sketch sulla scheda.</li>
+<li>Caricare lo sketch sulla scheda e aprire la seriale: apparira' l'ip da utilizzare per accedere al web server. <blockquote class="doxtable">
+<p>Nota: se si imposta la variabile <code>boolDebug</code> a false l'ip non verra' visualizzato su seriale, occorrera' utilizzare un software per analizzare la rete per rilevare il dispositivo. </p>
+</blockquote>
+</li>
+</ol>
+<h1>Descrizione</h1>
+<p>Per la descrizione del codice visitare la pagina di documentazione generata da Doxygen [cliccando qui]()</p>
+<h1>Requisiti</h1>
+<ul>
+<li>Arduino IDE configurato per caricare sketch su schede basate su ESP8266</li>
+<li>dispositivo da attuare (ventola, led,...)</li>
+</ul>
+<h1>Changelog</h1>
+<p><b>2020-04-02 01_01:</b> <br  />
+ Primo commit</p>
+<h1>Autori</h1>
+<ul>
+<li>Morini Martino</li>
+<li>Fraccari Luca</li>
+<li>Zenaro Stefano </li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>
