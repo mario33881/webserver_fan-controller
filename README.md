@@ -1,6 +1,6 @@
 # WEBSERVER_FAN-CONTROLLER
 
-![](doc/webpage.gif)
+![](docs/webpage.gif)
 
 ![](webpage.gif)
 
@@ -30,7 +30,7 @@ che permette di controllare una ventola a distanza.
 
 ## Descrizione
 Per la descrizione del codice visitare la pagina
-di documentazione generata da Doxygen [cliccando qui]()
+di documentazione generata da Doxygen [cliccando qui](https://mario33881.github.io/webserver_fan-controller/webserver__fan-controller_8ino.html)
 
 ## Requisiti
 * Arduino IDE configurato per caricare sketch su schede basate su ESP8266
